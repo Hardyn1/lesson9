@@ -5,6 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav d-flex">
+          <div class="nav__logo">
+            <img src="img/myportfolio.png" alt="myportfolio" />
+          </div>
+          <ul class="nav__list d-flex">
+            <li class="nav__item">
+              <a href="#me" class="nav__link me">обо мне</a>
+            </li>
+            <li class="nav__item">
+              <a href="#wrk" class="nav__link wrk">работы</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skl" class="nav__link skl">навыки</a>
+            </li>
+          </ul>
+          <div>
+            <a href="#" class="nav__email">info@myname.com</a>
+          </div>
+        </div>
+        <div class="author__main">
+          <h1>дело, которым я живу</h1>
+          <h2 class="second__title">верстка & frontend</h2>
+        </div>
+        <a href="#" class="arrow__down">↓</a>
+      </div>
+    </header>
+    <section class="about">
+      <div class="container">
+        <div class="section__title">
+          <h3 id="me">Обо мне</h3>
+        </div>
+        <div class="author d-flex justify-between">
+          <div class="author__text d-flex">
+            <h4>Бэкграунд</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa quiis aute irure dolor in reprehenderit in
+              is aute irure dolor in reprehenderit in is aute irure dolor in
+              reprehenderit in.
+            </p>
+          </div>
+          <div class="achieve">
+            <h4>Заслуги</h4>
+            <ul class="achieve__list d-flex justify-between">
+              <li class="achieve__item">
+                <span class="achieve__number d-flex"><span>75</span></span>
+                <p class="achieve__text">Реализованных проектов</p>
+              </li>
+              <li class="achieve__item">
+                <span class="achieve__number d-flex"><span>154</span></span>
+                <p class="achieve__text">Положительных отзыва</p>
+              </li>
+              <li class="achieve__item">
+                <span class="achieve__number d-flex"><span>8</span></span>
+                <p class="achieve__text txt">Лет опыта</p>
+              </li>
+            </ul>
+            <div class="call">
+              <h4>Связь</h4>
+              <div class="call__main d-flex">
+                <ul class="call__list d-flex">
+                  <li class="call__item">
+                    <a href="#" class="call__link">freelance.ru/myname</a>
+                  </li>
+                  <li class="call__item">
+                    <a href="#" class="call__link">vk.com/12343</a>
+                  </li>
+                  <li class="call__item">
+                    <a href="#" class="call__link">info@sitename.ru</a>
+                  </li>
+                </ul>
+                <div class="write d-flex">
+                  <i class="fa fa-regular fa-user"></i>
+                  <p class="write__me">Не стесняйтесь, пишите</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h3 id="skl">Навыки</h3>
+        <ul class="programs__list d-flex">
+          <li class="programs__item d-flex">
+            <span class="programs__number">98%</span>
+            <h5>Photoshop</h5>
+          </li>
+          <li class="programs__item d-flex">
+            <span class="programs__number">98%</span>
+            <h5>html5</h5>
+          </li>
+          <li class="programs__item d-flex">
+            <span class="programs__number">98%</span>
+            <h5>css3</h5>
+          </li>
+          <li class="programs__item d-flex">
+            <span class="programs__number">98%</span>
+            <h5>Лень</h5>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="works">
+      <div class="container">
+        <h3 id="wrk">Работы</h3>
+        <div class="portfolio d-flex justify-between">
+          <div class="portfolio__work d-flex">
+            <img
+              src="img/Rectangle 4.png"
+              alt="nature"
+              class="portfolio__img"
+            />
+          </div>
+          <div class="portfolio__work">
+            <img src="img/Rectangle 5.png" alt="deer" class="portfolio__img" />
+          </div>
+          <div class="portfolio__work">
+            <img src="img/Rectangle 6.png" alt="house" class="portfolio__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="main">
+          <p>2018-2099 / смотрю в будущее</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
