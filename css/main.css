@@ -164,8 +164,9 @@ button:active {
 }
 
 .nav__email {
+  font-family: "Museo Sans";
   color: rgb(255, 255, 255);
-  font-weight: 13px;
+  font-size: 13px;
   font-weight: 100;
 }
 
@@ -223,13 +224,12 @@ button:active {
 
 .achieve__list {
   margin-top: 38px;
-  margin-left: 45px;
+  margin-left: 11px;
 }
 
 .achieve__item {
   max-width: 103px;
   width: 100%;
-  margin-right: 65px;
 }
 
 .achieve__number {
